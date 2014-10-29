@@ -93,16 +93,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 23, ../sass/screen.scss */
 body, html {
-  min-height: 100%;
-  min-width: 100%;
-  height: 100%;
-  width: 100%;
+  min-height: 2100px;
+  min-width: 2100px;
+  height: 2100px;
+  width: 2100px;
   position: relative;
   background: #000;
   color: white;
+  margin: 0 auto;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .sun {
   background: #ffcc00;
   height: 30px;
@@ -116,86 +117,113 @@ body, html {
   line-height: 30px;
 }
 
-/* line 45, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .orbit {
   top: 50%;
   left: 50%;
   position: absolute;
+  border: 2px solid white;
 }
-/* line 50, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .orbit:before {
   content: '';
   display: block;
   float: left;
+  position: absolute;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .mercury {
   width: 400px;
+  height: 400px;
+  margin-top: -200px;
   margin-left: -200px;
   -moz-animation: rot 1.2045s infinite linear;
   -webkit-animation: rot 1.2045s infinite linear;
   animation: rot 1.2045s infinite linear;
+  -moz-border-radius: 400px / 400px;
+  -webkit-border-radius: 400px 400px;
+  border-radius: 400px / 400px;
 }
-/* line 63, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .mercury:before {
   background: #ff9000;
   height: 5.6px;
   width: 5.6px;
+  position: absolute;
+  top: 197.2px;
   -moz-border-radius: 5.6px / 5.6px;
   -webkit-border-radius: 5.6px 5.6px;
   border-radius: 5.6px / 5.6px;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .venus {
   width: 700px;
+  height: 700px;
   margin-left: -350px;
+  margin-top: -350px;
   -moz-animation: rot 3.08s infinite linear;
   -webkit-animation: rot 3.08s infinite linear;
   animation: rot 3.08s infinite linear;
+  -moz-border-radius: 700px / 700px;
+  -webkit-border-radius: 700px 700px;
+  border-radius: 700px / 700px;
 }
-/* line 76, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .venus:before {
   background: #ffde00;
   height: 86.6px;
   width: 86.6px;
+  top: 306.7px;
   -moz-border-radius: 86.6px / 86.6px;
   -webkit-border-radius: 86.6px 86.6px;
   border-radius: 86.6px / 86.6px;
 }
 
-/* line 84, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .earth {
   width: 1000px;
+  height: 1000px;
+  margin-top: -500px;
   margin-left: -500px;
   -moz-animation: rot 5s infinite linear;
   -webkit-animation: rot 5s infinite linear;
   animation: rot 5s infinite linear;
+  -moz-border-radius: 1000px / 1000px;
+  -webkit-border-radius: 1000px 1000px;
+  border-radius: 1000px / 1000px;
 }
-/* line 89, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .earth:before {
   background: #00aaff;
   height: 100px;
   width: 100px;
+  top: 450px;
   -moz-border-radius: 100px / 100px;
   -webkit-border-radius: 100px 100px;
   border-radius: 100px / 100px;
 }
 
-/* line 97, ../sass/screen.scss */
+/* line 118, ../sass/screen.scss */
 .mars {
   width: 1500px;
+  height: 1500px;
   margin-left: -750px;
+  margin-top: -750px;
   -moz-animation: rot 9.5s infinite linear;
   -webkit-animation: rot 9.5s infinite linear;
   animation: rot 9.5s infinite linear;
+  -moz-border-radius: 1500px / 1500px;
+  -webkit-border-radius: 1500px 1500px;
+  border-radius: 1500px / 1500px;
 }
-/* line 102, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .mars:before {
   background: #ff0036;
   height: 15.1px;
   width: 15.1px;
+  top: 742.45px;
   -moz-border-radius: 15.1px / 15.1px;
   -webkit-border-radius: 15.1px 15.1px;
   border-radius: 15.1px / 15.1px;
