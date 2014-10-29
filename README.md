@@ -1,6 +1,10 @@
 ## Solar System CSS
 
-A simple CSS representation of the solar system.  Currently only includes the inner planets.  Based on the following calculations:
+[Demo](http://sarahfrisk.net/solar-system/ "CSS Solar System Demo") 
+
+A simple CSS representation of the solar system.  Currently only includes the inner planets.  
+
+Based on the following calculations:
 
 ### Sun:
 Not to scale. At all.
