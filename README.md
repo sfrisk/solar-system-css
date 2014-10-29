@@ -25,8 +25,8 @@ Not to scale. At all.
 
 Wikipedia
 
-http://en.wikipedia.org/wiki/Solar_System#Mercury
-http://en.wikipedia.org/wiki/Mercury_(planet)
-http://en.wikipedia.org/wiki/Venus
-http://en.wikipedia.org/wiki/Earth
-http://en.wikipedia.org/wiki/Mars
+- http://en.wikipedia.org/wiki/Solar_System
+- http://en.wikipedia.org/wiki/Mercury_(planet)
+- http://en.wikipedia.org/wiki/Venus
+- http://en.wikipedia.org/wiki/Earth
+- http://en.wikipedia.org/wiki/Mars
