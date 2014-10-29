@@ -140,11 +140,11 @@ body, html {
 /* line 63, ../sass/screen.scss */
 .mercury:before {
   background: #ff9000;
-  height: 5.5px;
-  width: 5.5px;
-  -moz-border-radius: 5.5px / 5.5px;
-  -webkit-border-radius: 5.5px 5.5px;
-  border-radius: 5.5px / 5.5px;
+  height: 5.6px;
+  width: 5.6px;
+  -moz-border-radius: 5.6px / 5.6px;
+  -webkit-border-radius: 5.6px 5.6px;
+  border-radius: 5.6px / 5.6px;
 }
 
 /* line 71, ../sass/screen.scss */
@@ -158,11 +158,11 @@ body, html {
 /* line 76, ../sass/screen.scss */
 .venus:before {
   background: #ffde00;
-  height: 81.5px;
-  width: 81.5px;
-  -moz-border-radius: 81.5px / 81.5px;
-  -webkit-border-radius: 81.5px 81.5px;
-  border-radius: 81.5px / 81.5px;
+  height: 86.6px;
+  width: 86.6px;
+  -moz-border-radius: 86.6px / 86.6px;
+  -webkit-border-radius: 86.6px 86.6px;
+  border-radius: 86.6px / 86.6px;
 }
 
 /* line 84, ../sass/screen.scss */
@@ -194,9 +194,9 @@ body, html {
 /* line 102, ../sass/screen.scss */
 .mars:before {
   background: #ff0036;
-  height: 10.7px;
-  width: 10.7px;
-  -moz-border-radius: 10.7px / 10.7px;
-  -webkit-border-radius: 10.7px 10.7px;
-  border-radius: 10.7px / 10.7px;
+  height: 15.1px;
+  width: 15.1px;
+  -moz-border-radius: 15.1px / 15.1px;
+  -webkit-border-radius: 15.1px 15.1px;
+  border-radius: 15.1px / 15.1px;
 }
